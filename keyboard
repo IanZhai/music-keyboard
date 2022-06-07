@@ -1,0 +1,8 @@
+int buttons[6];//创建一个有六个整数的数组
+int buttons[0] = 2;//给数组的第一个元素赋值
+int notes[] = {262, 294,330,349};
+void setup() {
+Serial.begin(9600);
+}
+void loop() {
+int keyVal = analogRead(A0);
